@@ -42,7 +42,10 @@ Voici un exemple d'équation LaTeX : $e^{i\pi} + 1 = 0$
 
 You can also use the default view by omitting the view parameter:
 
-{{< cite page="/publications/conference-paper" >}}
+Voici une équation en ligne : $e^{i\pi} + 1 = 0$
+
+Et une équation centrée :
+$$ \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} $$
 
 ## Video
 
