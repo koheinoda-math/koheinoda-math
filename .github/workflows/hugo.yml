@@ -30,17 +30,17 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
-      - name: Install Tailwind CSS CLI Standalone
+      - name: Install Tailwind CSS v4 CLI Global
         run: |
-          curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.17/tailwindcss-linux-x64
-          chmod +x tailwindcss-linux-x64
-          sudo mv tailwindcss-linux-x64 /usr/local/bin/tailwindcss
-          sudo ln -sf /usr/local/bin/tailwindcss /usr/bin/tailwindcss
+          npm install -g tailwindcss @tailwindcss/cli
+          # Exporter le chemin npm global en priorité dans le PATH
+          NPM_BIN=$(npm bin -g)
+          echo "$NPM_BIN" >> $GITHUB_PATH
 
       - name: Setup Pages
         id: pages
