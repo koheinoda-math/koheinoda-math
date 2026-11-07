@@ -10,10 +10,10 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     name: "Kohei Noda"
-    organization: "RIMS, Kyoto University"
+    organization: "UCLouvain"
     type: person
-    tagline: "JSPS Postdoctoral Fellow at RIMS"
-    description: "Academic website of Kohei Noda, JSPS Postdoctoral Fellow at RIMS, Kyoto University. Specialized in Algebraic Geometry and Hodge Theory."
+    tagline: "Postdoctoral Researcher in Probability and Mathematical Physics"
+    description: "Academic website of Kohei Noda, postdoctoral researcher at UCLouvain working on two-dimensional Coulomb gases, random matrix theory, and random functions."
     social:
       twitter: ""
 
@@ -94,14 +94,14 @@ hugoblox:
   # SEO
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    title: "Kohei Noda | RIMS, Kyoto University"
+    title: "Kohei Noda | UCLouvain"
     location:
       address:
         street: ""
-        city: "Kyoto"
+        city: "Louvain-la-Neuve"
         region: ""
         postal_code: ""
-        country: "Japan"
+        country: "Belgium"
       coordinates:
         latitude: null
         longitude: null
