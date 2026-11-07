@@ -21,7 +21,7 @@ hugoblox:
   # THEME
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    mode: light
+    mode: dark
     pack: "default"
     colors:
       primary: ""
