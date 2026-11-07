@@ -1,5 +1,5 @@
 ---
-title: "Projet de Recherche en Mathématiques"
+title: "Projet de Recherche"
 summary: "Présentation des travaux de recherche."
 date: 2026-01-01
 authors:
