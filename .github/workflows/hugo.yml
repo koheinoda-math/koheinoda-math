@@ -35,12 +35,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install Tailwind CSS v4 CLI Global
+      - name: Install Tailwind CSS CLI
         run: |
           npm install -g tailwindcss @tailwindcss/cli
-          # Exporter le chemin npm global en priorité dans le PATH
-          NPM_BIN=$(npm bin -g)
-          echo "$NPM_BIN" >> $GITHUB_PATH
+          echo "$(npm config get prefix)/bin" >> $GITHUB_PATH
 
       - name: Setup Pages
         id: pages
