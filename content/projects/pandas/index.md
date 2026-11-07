@@ -1,15 +1,14 @@
 ---
-title: Pandas
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/pandas-dev/pandas
+title: "Projet de Recherche en Mathématiques"
+summary: "Présentation des travaux de recherche."
+date: 2026-01-01
+authors:
+  - admin
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Math
+links: []
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Présentation du projet de recherche de Kohei Noda.
 
-<!--more-->
+$$ \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} $$
