@@ -38,7 +38,7 @@ On this page, you'll find some examples of the types of technical content that c
 
 Here's an example of citing a publication using the cite shortcode:
 
-{{< cite page="/publications/preprint" view="citation" >}}
+Voici un exemple d'équation LaTeX : $e^{i\pi} + 1 = 0$
 
 You can also use the default view by omitting the view parameter:
 
