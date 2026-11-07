@@ -35,9 +35,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install Tailwind CSS CLI
+      - name: Install Tailwind CSS CLI & Plugins
         run: |
           npm install -g tailwindcss @tailwindcss/cli
+          npm install @tailwindcss/typography
           echo "$(npm config get prefix)/bin" >> $GITHUB_PATH
 
       - name: Setup Pages
