@@ -30,16 +30,11 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      - name: Install Tailwind CSS CLI
+      - name: Install Standalone Tailwind CLI
         run: |
-          npm init -y
-          npm install tailwindcss @tailwindcss/cli
-          echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
+          curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.17/tailwindcss-linux-x64
+          chmod +x tailwindcss-linux-x64
+          sudo mv tailwindcss-linux-x64 /usr/local/bin/tailwindcss
 
       - name: Setup Pages
         id: pages
