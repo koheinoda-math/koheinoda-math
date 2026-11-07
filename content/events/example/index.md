@@ -1,70 +1,27 @@
 ---
-title: "Create Beautiful Presentations with Markdown"
-date: '2017-01-01T00:00:00Z'
+title: "Présentation des travaux de recherche"
+date: '2026-01-01T00:00:00Z'
 
-event_name: HugoBlox Showcase
-event_url: https://hugoblox.com
+summary: "Séminaire de recherche et présentation des résultats."
+abstract: "Présentation des derniers travaux et équations associées."
 
-location: Online & In-Person
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-
-summary: Discover how to create stunning, interactive presentations using simple Markdown.
-abstract: |
-  Join us to explore HugoBlox's revolutionary Markdown-based slide system. Create beautiful presentations with code syntax highlighting, math equations, animations, and dual-column layouts.
-
-event_start: '2030-06-01T13:00:00Z'
-event_end: '2030-06-01T15:00:00Z'
+event_start: '2026-06-01T13:00:00Z'
+event_end: '2026-06-01T15:00:00Z'
 event_all_day: false
 
 authors:
   - admin
 
 tags:
-  - Markdown
-  - Presentations
-  - Academic
+  - Mathématiques
+  - Recherche
 
-featured: true
-
-links:
-  - icon: brands/github
-    name: Star on GitHub
-    url: https://github.com/HugoBlox/kit
-  - icon: book-open
-    name: Documentation
-    url: https://docs.hugoblox.com/guides/slides/
-
+links: []
 projects: []
 ---
 
-## 🎯 Why Markdown Slides?
+### Séminaire de Mathématiques
 
-Unlike PowerPoint or Keynote, your presentations are **future-proof**, **portable**, and completely **under your control**.
+Voici un exemple d'intégration d'équation dans une présentation de conférence :
 
-### The Problem with Traditional Slides
-
-**PowerPoint & Keynote:**
-- Proprietary file formats (`.pptx`, `.key`)
-- Platform-specific (Windows/Mac only)
-- Difficult to version control
-
-### The Hugo Blox Solution
-
-Write your presentations in simple, human-readable Markdown. Edit anywhere, present anywhere.
-
----
-
-## ✨ What You Get
-
-### 🎨 Professional Design, Zero Effort
-
-- **Syntax Highlighting** — Beautiful code blocks with 50+ languages
-- **Math Support** — LaTeX equations render perfectly: $E = mc^2$
-- **Responsive** — Looks great on any screen size
-
-### 📝 Write in Plain Text
+$$ \int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2} $$
